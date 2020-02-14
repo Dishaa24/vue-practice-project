@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header siteTitle="shouvik" />
+    <Header siteTitle="Samriddhi Engineering Works " />
         <div class="container-fluid">
             <router-view />
         </div>
@@ -21,23 +21,25 @@ export default {
 
 <style>
 body {
-  background:black;
+  background:rgb(148, 142, 142);
 }
 
 .container {
   max-width: 900px;
+  
 }
 
 .card {
-  background:rgb(71, 64, 64);
+  background:rgb(71, 64, 64); 
 }
 
 .card-body {
-  color: white;
+  color: rgb(166, 245, 21);
 }
 
 .card-body a {
-  color: rgb(233, 232, 225);
+  color: rgb(165, 160, 214);
+  
 }
 
 </style>

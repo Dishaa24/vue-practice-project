@@ -8,7 +8,7 @@
 <script>
 import axios from "axios";
 import AddPost from "@/views/AddPost.vue";
-import postList from "@/views/postList.vue";
+import postList from "../views/postList.vue";
 
 export default {
   name: 'home',
@@ -23,7 +23,7 @@ export default {
     }
   },
   created(){
-    axios.get(`https://jsonplaceholder.typicode.com/posts`)
+    axios.get(`https://jsonplaceholder.typicode.com/posts?_limit=5`)
     .then(res => {
       this.posts = res.data
     })
