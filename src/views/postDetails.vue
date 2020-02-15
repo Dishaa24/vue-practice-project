@@ -22,8 +22,9 @@ export default {
            
        }
    },
-     created(){
-    axios.get(`https://jsonplaceholder.typicode.com/posts/${this.id}`)
+    async created(){
+    alert('here')
+    await axios.get(`https://jsonplaceholder.typicode.com/posts/${this.id}`)
     .then(res => {
       this.post = res.data;
     })

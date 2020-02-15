@@ -18,7 +18,7 @@ const routes = [
     component:About
   },
   {
-  path: '/postDetails.vue',
+  path: '/post-details',
   name: 'post-details',
   component:postDetails
   },

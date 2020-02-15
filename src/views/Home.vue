@@ -27,7 +27,6 @@ export default {
     .then(res => {
       this.posts = res.data
     })
-    .catch(e => {this.errors.push(e)});
   }
 } 
 </script>
